@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = SimpleEmailExceptionNotifier::VERSION
   spec.authors       = ["Artur Hebda"]
   spec.email         = ["arturhebda@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{Email notifier for exception_notification that does not rely on ActionMailer and can be used with any Rack app.}
+  spec.description   = %q{Plugin for exception_notification that can be used outside Rails, i.e. with Grape. As of now it supports only text emails. As a delivery method it can use either Mail or Pony or custom method you define.}
+  spec.homepage      = "https://github.com/aenain/simple_email_exception_notifier"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
