@@ -1,5 +1,7 @@
 # SimpleEmailExceptionNotifier
 
+[![Code Climate](https://codeclimate.com/github/aenain/simple_email_exception_notifier/badges/gpa.svg)](https://codeclimate.com/github/aenain/simple_email_exception_notifier)
+
 Email notifier for [exception_notification](https://github.com/smartinez87/exception_notification) that does not rely on ActionMailer and can be used outside Rails, i.e. with Grape. As of now it supports only text emails. As a delivery method it can use either [Mail](https://github.com/mikel/mail) or [Pony](https://github.com/benprew/pony) or custom method you define.
 
 ## Why?
