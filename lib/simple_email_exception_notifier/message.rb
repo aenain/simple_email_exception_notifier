@@ -1,6 +1,6 @@
 require_relative 'formatter'
 
-module ExceptionNotifierSimpleEmail
+module SimpleEmailExceptionNotifier
   class Message
     def initialize(formatter = Formatter.new)
       @content = []

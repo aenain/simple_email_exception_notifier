@@ -1,6 +1,6 @@
 require 'pp'
 
-module ExceptionNotifierSimpleEmail
+module SimpleEmailExceptionNotifier
   class Formatter
     def text(text)
       text.to_s

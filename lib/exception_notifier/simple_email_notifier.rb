@@ -1,4 +1,4 @@
-require 'exception_notifier_simple_email/message'
+require 'simple_email_exception_notifier/message'
 
 module ExceptionNotifier
   class SimpleEmailNotifier
@@ -54,7 +54,7 @@ module ExceptionNotifier
     end
 
     def compose_message(exception, env, options)
-      ExceptionNotifierSimpleEmail::Message.compose do |m|
+      SimpleEmailExceptionNotifier::Message.compose do |m|
         m.print_summary(exception)
         m.print_section('Backtrace', exception.backtrace)
 

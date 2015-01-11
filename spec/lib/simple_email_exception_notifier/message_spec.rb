@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'exception_notifier_simple_email/message'
+require 'simple_email_exception_notifier/message'
 
-RSpec.describe ExceptionNotifierSimpleEmail::Message do
+RSpec.describe SimpleEmailExceptionNotifier::Message do
   describe '.compose' do
     it 'composes message from parts' do
       content = described_class.compose do |m|

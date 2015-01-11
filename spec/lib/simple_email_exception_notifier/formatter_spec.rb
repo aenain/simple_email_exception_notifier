@@ -1,7 +1,7 @@
 require 'spec_helper'
-require 'exception_notifier_simple_email/formatter'
+require 'simple_email_exception_notifier/formatter'
 
-RSpec.describe ExceptionNotifierSimpleEmail::Formatter, '#text' do
+RSpec.describe SimpleEmailExceptionNotifier::Formatter, '#text' do
   it 'converts argument to string' do
     formatted = described_class.new.text(3)
 
@@ -9,7 +9,7 @@ RSpec.describe ExceptionNotifierSimpleEmail::Formatter, '#text' do
   end
 end
 
-RSpec.describe ExceptionNotifierSimpleEmail::Formatter, '#section' do
+RSpec.describe SimpleEmailExceptionNotifier::Formatter, '#section' do
   it 'makes title stand out' do
     separator = /\n[-]+\n/
 

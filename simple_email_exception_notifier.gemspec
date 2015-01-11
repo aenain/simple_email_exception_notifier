@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'exception_notifier_simple_email/version'
+require 'simple_email_exception_notifier/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "exception_notifier_simple_email"
-  spec.version       = ExceptionNotifierSimpleEmail::VERSION
+  spec.name          = "simple_email_exception_notifier"
+  spec.version       = SimpleEmailExceptionNotifier::VERSION
   spec.authors       = ["Artur Hebda"]
   spec.email         = ["arturhebda@gmail.com"]
   spec.summary       = %q{TODO: Write a short summary. Required.}
